@@ -1,0 +1,37 @@
+.container-task-input {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(255, 255, 255, 0.2);
+}
+
+.container-task-input input {
+    width: 70%;
+    height: 100%;
+    font-size: 17px;
+    outline: none;
+    padding: 10px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.container-task-input button {
+    height: 100%;
+    width: 30%;
+    font-size: 17px;
+    font-weight: 500;
+    border: none;
+    color: #fff;
+    background: #1aa11a;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.container-task-input button:hover {
+    background-color: #327e32;
+}
